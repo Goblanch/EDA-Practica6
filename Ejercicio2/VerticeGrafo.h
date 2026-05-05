@@ -10,7 +10,8 @@ private:
 public:
     explicit VerticeGrafo(const T& dato) : dato(dato) {}
 
-    T getDato() const {return dato;}
+    T& getDato() {return dato;}
+    const T& getDato() const {return dato;}
     Lista<T>& getAdyacentes() {return adyacentes;}
     const Lista<T>& getAdyacentes() const {return adyacentes;}
 

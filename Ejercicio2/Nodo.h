@@ -10,7 +10,8 @@ private:
 public:
     explicit Nodo(const T& dato) : dato(dato), siguiente(nullptr) {}
 
-    T getDato() const {return dato;}
+    T& getDato() {return dato;}
+    const T& getDato() const {return dato;}
     std::shared_ptr<Nodo<T>> getSiguiente() const {return siguiente;}
 
     void setDato(const T& d) {dato = d;}
