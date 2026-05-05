@@ -1,3 +1,5 @@
-//
-// Created by gonza on 05/05/2026.
-//
+#include <iostream>
+
+int main() {
+    return 0;
+}
