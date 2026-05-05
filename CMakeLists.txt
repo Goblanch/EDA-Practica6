@@ -9,12 +9,13 @@ add_executable(EDA_P5GA1_E1
         # TODO: añadir aquí los archivos fuente del Ejercicio 1
         # Ejemplo: Ejercicio1/mainE1.cpp
         Ejercicio1/mainE1.cpp
+        Ejercicio1/Nodo.h
+        Ejercicio1/Producto.h
+        Ejercicio1/Arbol.h
 )
 
 # ── Ejercicio 2 ──────────────────────────────────────────────────────────────
 add_executable(EDA_P5GA1_E2_26
-        # TODO: añadir aquí los archivos fuente del Ejercicio 2
-        # Ejemplo: Ejercicio2/mainE2.cpp
         Ejercicio2/mainE2.cpp
         Ejercicio2/Nodo.h
         Ejercicio2/Lista.h
