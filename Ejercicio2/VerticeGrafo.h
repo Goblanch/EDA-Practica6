@@ -14,7 +14,7 @@ public:
     Lista<T>& getAdyacentes() {return adyacentes;}
     const Lista<T>& getAdyacentes() const {return adyacentes;}
 
-    void agregarAdtacente(const T& destino) {
+    void agregarAdyacente(const T& destino) {
         adyacentes.insertarAlFinal(destino);
     }
 
