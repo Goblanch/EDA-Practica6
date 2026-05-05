@@ -17,4 +17,8 @@ add_executable(EDA_P5GA1_E2_26
         # Ejemplo: Ejercicio2/mainE2.cpp
         Ejercicio2/mainE2.cpp
         Ejercicio2/Nodo.h
+        Ejercicio2/Lista.h
+        Ejercicio2/VerticeGrafo.h
+        Ejercicio2/Aeropuerto.h
+        Ejercicio2/Grafo.h
 )
